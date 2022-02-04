@@ -1,5 +1,5 @@
 /*
-    Cookie Consent Notice Type a
+    Cookie Consent Notice Type g
     CREATED BY JURGEN GEITNER
     Adapted from https://github.com/manucaralmo/GlowCookies
 */
@@ -26,7 +26,7 @@ class CookieConsentNotice {
   addCss() {
     const stylesheet = document.createElement('link');
     stylesheet.setAttribute('rel', 'stylesheet');
-    stylesheet.setAttribute('href', 'ccn-type-a.css');
+    stylesheet.setAttribute('href', 'ccn-type-g.css');
     document.head.appendChild(stylesheet);
   }
 
