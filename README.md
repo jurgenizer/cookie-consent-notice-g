@@ -9,7 +9,7 @@ Code adapted from [GlowCookies](https://github.com/manucaralmo/GlowCookies) by A
 Typology adapted from Utz et al. (2019), who evaluated the GUI of six types of cookie consent notices in a series of online experiments.
 
 ### Important:
-This code is for UI testing only. Actual cookie setting/rejecting/deleting functionality is limited. 
+This code is for UI testing only. Actual cookie setting/rejecting/deleting functionality is limited. Checkboxes are just for show.
 
 ### References:
 Almoguera, M. C. (2021). GlowCookies (Version 3.1.6) [Computer source code]. GitHub. https://github.com/manucaralmo/GlowCookies

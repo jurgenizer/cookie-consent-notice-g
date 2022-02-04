@@ -59,11 +59,34 @@ class CookieConsentNotice {
                                               ${this.banner.linkText}
                                           </a>
                                       </p>
+                                      <div class="chkbox__section">
+                                      <label class="container">Neccesary
+                                      <input type="checkbox" checked="checked">
+                                      <span class="checkmark"></span>
+                                      </label>            
+                                      <label class="container">Personalisation & Design
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                      </label>
+                                      <label class="container">Analytics
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                      </label>
+                                      <label class="container">Social Media
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                      </label>
+                                      <label class="container">Marketing
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                      </label>
+                                      </div>
                                       <div class="btn__section">
                                           <button type="button" id="acceptCookies" class="btn__accept accept__btn__styles" style="color: ${this.banner.acceptBtn.color}; background-color: ${this.banner.acceptBtn.background};">
                                               ${this.banner.acceptBtn.text}
                                           </button>
                                       </div>
+
                                   </div>
                               `;
     document.body.appendChild(this.Cookies);
@@ -282,14 +305,14 @@ class LanguagesGC {
         'bannerDescription': 'Ons gebruik ons eie koekies en die van derdepartye, om inhoud te verpersoonlik en om webverkeer te ontleed.',
         'bannerLinkText': 'Lees meer oor koekies',
         'acceptBtnText': 'Aanvaar koekies',
-        'manageText': 'Koekie-instellings'
+        'manageText': 'Koekie-instellings'  
       },
       en: {
         'bannerHeading': 'We use cookies',
         'bannerDescription': 'We use our own and third-party cookies to personalize content and to analyze web traffic.',
         'bannerLinkText': 'Read more about cookies',
         'acceptBtnText': 'Accept cookies',
-        'manageText': 'Manage cookies'
+        'manageText': 'Manage cookies',
       }
     }
   }
