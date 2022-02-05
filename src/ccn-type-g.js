@@ -1,6 +1,5 @@
 /*
     Cookie Consent Notice Type g
-    CREATED BY JURGEN GEITNER
     Adapted from https://github.com/manucaralmo/GlowCookies
 */
 
