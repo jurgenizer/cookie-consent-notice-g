@@ -185,18 +185,15 @@
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: #c0c0c0;
 }
 
-/* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
   background-color: #209cee;
 }
+
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
@@ -209,6 +206,12 @@
 .container input:checked ~ .checkmark:after {
   display: block;
 }
+
+/* Show the checkmark when checked and disabled */
+.container input:disabled ~ .checkmark:after {
+  display: block;
+}
+
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {

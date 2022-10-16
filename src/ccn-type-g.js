@@ -60,23 +60,23 @@ class CookieConsentNotice {
                                       </p>
                                       <div class="chkbox__section">
                                       <label class="container">Neccesary
-                                      <input type="checkbox" checked="checked">
+                                      <input type="checkbox" name="checkbox-disabled" disabled />
                                       <span class="checkmark"></span>
                                       </label>            
                                       <label class="container">Personalisation & Design
-                                      <input type="checkbox">
+                                      <input type="checkbox" checked="checked">
                                       <span class="checkmark"></span>
                                       </label>
                                       <label class="container">Analytics
-                                      <input type="checkbox">
+                                      <input type="checkbox" checked="checked">
                                       <span class="checkmark"></span>
                                       </label>
                                       <label class="container">Social Media
-                                      <input type="checkbox">
+                                      <input type="checkbox" checked="checked">
                                       <span class="checkmark"></span>
                                       </label>
                                       <label class="container">Marketing
-                                      <input type="checkbox">
+                                      <input type="checkbox" checked="checked">
                                       <span class="checkmark"></span>
                                       </label>
                                       </div>
